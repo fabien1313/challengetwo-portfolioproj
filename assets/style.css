@@ -3,6 +3,7 @@
     --font: 'Raleway';
 }
 
+/* Header */
 header {
     display:flex;
     justify-content: space-between;
@@ -34,19 +35,15 @@ header {
     border-bottom: 3px solid lightblue;
     color: lightblue;   
 }
-
 /* End of header */
 
+/* Hero */
 #hero {
     display:flex;
     background-image: url(images/hero.jpg);
     height: 250px;
     object-fit: cover;
-    justify-content: space-between;
-   
-    
-    
-    
+    justify-content: space-between;  
 }
 
 #powerof {
@@ -54,7 +51,8 @@ header {
    color:lightblue;
    margin-top:150px;
    margin-right: 60px;
-   font-size: 30px;  
+   font-size: 30px; 
+   font-family: var(--font); 
 }
 
 #avatar {
@@ -63,9 +61,4 @@ header {
     height:230px;
     margin-top: 19.5px;
 }
-
-
-
-
-
-
+/* End of Hero */
