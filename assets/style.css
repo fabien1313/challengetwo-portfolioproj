@@ -37,12 +37,35 @@ header {
 
 /* End of header */
 
-
-
-
 #hero {
-    width:100%;
+    display:flex;
+    background-image: url(images/hero.jpg);
     height: 250px;
     object-fit: cover;
+    justify-content: space-between;
+   
+    
+    
+    
 }
+
+#powerof {
+   position:relative;
+   color:lightblue;
+   margin-top:150px;
+   margin-right: 60px;
+   font-size: 30px;  
+}
+
+#avatar {
+    position:relative;
+    margin-left: 30px;
+    height:230px;
+    margin-top: 19.5px;
+}
+
+
+
+
+
 
