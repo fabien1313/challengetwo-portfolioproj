@@ -62,3 +62,29 @@ header {
     margin-top: 19.5px;
 }
 /* End of Hero */
+
+
+/* About Me */
+#about-me {
+    display: flex;
+    flex-wrap: nowrap;
+    
+}
+
+h2 {
+    display:flex;
+    justify-content: right;
+    width:15%;
+    border-right: 5px solid lightblue;
+    text-align: right; 
+    padding-right: 5px;
+    color: var(--primary);
+    font-size: 35px;
+}
+
+#lorem {
+    padding:20px;
+    width: 85%;   
+}
+
+/* End About Me */
