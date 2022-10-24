@@ -1,19 +1,19 @@
 :root {
-    --primary: #384044; 
+    --primary: #384044;
     --font: 'Raleway';
 }
 
 /* Header */
 header {
-    display:flex;
+    display: flex;
     justify-content: space-between;
     align-items: baseline;
     background-color: var(--primary);
-    height:100px;
-    
+    height: 100px;
+
 }
 
- h1 {
+h1 {
     background-color: lightblue;
     padding-left: 100px;
     color: var(--primary);
@@ -24,7 +24,7 @@ header {
     display: flex;
     margin-right: 50px;
     margin-top: 40px;
-    
+
 }
 
 .navli {
@@ -33,34 +33,36 @@ header {
     margin-left: 15px;
     font-family: var(--font);
     border-bottom: 3px solid lightblue;
-    color: lightblue;   
+    color: lightblue;
 }
+
 /* End of header */
 
 /* Hero */
 #hero {
-    display:flex;
+    display: flex;
     background-image: url(images/hero.jpg);
     height: 250px;
     object-fit: cover;
-    justify-content: space-between;  
+    justify-content: space-between;
 }
 
 #powerof {
-   position:relative;
-   color:lightblue;
-   margin-top:150px;
-   margin-right: 60px;
-   font-size: 30px; 
-   font-family: var(--font); 
+    position: relative;
+    color: lightblue;
+    margin-top: 150px;
+    margin-right: 60px;
+    font-size: 30px;
+    font-family: var(--font);
 }
 
 #avatar {
-    position:relative;
+    position: relative;
     margin-left: 30px;
-    height:230px;
+    height: 230px;
     margin-top: 19.5px;
 }
+
 /* End of Hero */
 
 
@@ -68,23 +70,160 @@ header {
 #about-me {
     display: flex;
     flex-wrap: nowrap;
-    
+
 }
 
-h2 {
-    display:flex;
+.about-me-sec {
+    display: flex;
     justify-content: right;
-    width:15%;
+    width: 12%;
     border-right: 5px solid lightblue;
-    text-align: right; 
+    text-align: right;
     padding-right: 5px;
     color: var(--primary);
     font-size: 35px;
+    margin-right: 20px;
 }
 
-#lorem {
-    padding:20px;
-    width: 85%;   
-}
+.content {
+    width: 88%;
+    
+} 
 
+p {
+    width:95%;
+    font-size: 20px;
+}
 /* End About Me */
+
+
+/* work section */
+.container {
+    
+    width: 100%;
+    height:650px;
+    
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    width:88%
+    
+}
+
+.miniproj {
+    width:95%;
+    height:450px;
+    border: 4px solid lightblue;
+}
+
+.work-title {
+    width: 12%;
+    border-right: 5px solid lightblue;
+    text-align: right;
+    padding-right: 5px;
+    color: var(--primary);
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+.row-2 {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.image-2 {
+    width:44%;
+}
+
+.image-3 {
+    width:44%;
+}
+
+.passwordgenie{
+    width:90%;
+    height:90%;
+    border:4px solid lightblue
+}
+
+.hidden {
+    color:white;
+}
+/* End of work section */
+
+
+/* footer */
+.row-3 {
+    display: flex;
+}
+
+.contact {
+    width: 88%;
+}
+
+.contact-li {
+    display: flex;
+    list-style: none;
+    
+}
+
+.footer-li {
+    display: inline;
+    margin-left: 150px;
+    font-size: 25px;
+    border-bottom: 5px solid lightblue;
+    padding-bottom: 5px;
+    color: var(--primary); 
+}
+
+div ul a {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #work-sec {
+    display: flex;
+
+
+}
+
+#mini-proj {
+    width: 99%;
+    height: auto;
+
+}
+
+.content {
+    width: 85%;
+} */
