@@ -13,6 +13,7 @@ header {
 
 }
 
+
 h1 {
     background-color: lightblue;
     padding-left: 100px;
@@ -77,16 +78,19 @@ h1 {
     display: flex;
     justify-content: right;
     width: 12%;
-    border-right: 5px solid lightblue;
+    border-right: 5px solid var(--primary);
     text-align: right;
     padding-right: 5px;
     color: var(--primary);
     font-size: 35px;
     margin-right: 20px;
+    font-family: var(--font);
 }
 
 .content {
     width: 88%;
+    color: var(--primary);
+    font-family: var(--font);
     
 } 
 
@@ -99,10 +103,8 @@ p {
 
 /* work section */
 .container {
-    
     width: 100%;
     height:650px;
-    
 }
 
 .row {
@@ -110,30 +112,28 @@ p {
 }
 
 .column {
-    width:88%
-    
+    width:88%;
 }
 
 .miniproj {
     width:95%;
     height:450px;
-    border: 4px solid lightblue;
+    border: 5px solid var(--primary);
 }
 
 .work-title {
     width: 12%;
-    border-right: 5px solid lightblue;
+    border-right: 5px solid var(--primary);
     text-align: right;
     padding-right: 5px;
     color: var(--primary);
     font-size: 25px;
     margin-right: 20px;
+    font-family: var(--font);
 }
 
 .row-2 {
     display: flex;
-    justify-content: center;
-    
 }
 
 .image-2 {
@@ -146,12 +146,12 @@ p {
 
 .passwordgenie{
     width:90%;
-    height:90%;
-    border:4px solid lightblue
+    height:300px;
+    border:4px solid var(--primary)
 }
 
 .hidden {
-    color:white;
+    visibility: hidden;
 }
 /* End of work section */
 
@@ -168,6 +168,7 @@ p {
 .contact-li {
     display: flex;
     list-style: none;
+    flex-wrap: wrap;
     
 }
 
@@ -175,14 +176,96 @@ p {
     display: inline;
     margin-left: 150px;
     font-size: 25px;
-    border-bottom: 5px solid lightblue;
+    border-bottom: 5px solid var(--primary);
     padding-bottom: 5px;
     color: var(--primary); 
+    font-family: var(--font);
 }
 
 div ul a {
     text-decoration: none;
 }
+
+/* Titles */
+
+.image-1-title {
+    position:absolute;
+    background-color: lightblue;
+    width:auto;
+    font-size: 26px;
+    margin-left: 4px;
+    margin-top:345px;
+    text-align: center;
+    font-family: var(--font);
+    
+}
+
+.image-2-title {
+    position:absolute;
+    background-color: lightblue;
+    width:auto;
+    font-size: 18px;
+    margin-left: 4px;
+    margin-top:225px;
+    text-align: center;
+    font-family: var(--font);
+}
+
+
+.image-3-title {
+    position:absolute;
+    background-color: lightblue;
+    width:auto;
+    font-size: 18px;
+    margin-left: 4px;
+    margin-top:225px;
+    text-align: center;
+    font-family: var(--font);
+}
+
+.image-4-title {
+    position:absolute;
+    background-color: lightblue;
+    width:auto;
+    font-size: 18px;
+    margin-left: 4px;
+    margin-top:225px;
+    text-align: center;
+    font-family: var(--font);
+}
+
+.image-5-title {
+    position:absolute;
+    background-color: lightblue;
+    width:auto;
+    font-size: 18px;
+    margin-left: 4px;
+    margin-top:225px;
+    text-align: center;
+    font-family: var(--font);
+}
+
+
+.subtitle, .subtitle-2, .subtitle-3, .subtitle-4 {
+    font-size: 12px; 
+}
+
+/* End of Titles */
+
+/* Hovers */
+
+.miniproj:hover {
+    opacity: .4;
+    
+    
+}
+
+.passwordgenie:hover {
+    opacity: .4;
+    background: red;
+}
+
+/* End of Hovers */
 
 
 
