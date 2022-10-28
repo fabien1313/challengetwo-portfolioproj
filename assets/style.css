@@ -10,7 +10,6 @@ header {
     align-items: baseline;
     background-color: var(--primary);
     height: 100px;
-
 }
 
 
@@ -25,7 +24,6 @@ h1 {
     display: flex;
     margin-right: 50px;
     margin-top: 40px;
-
 }
 
 .navli {
@@ -35,6 +33,10 @@ h1 {
     font-family: var(--font);
     border-bottom: 3px solid lightblue;
     color: lightblue;
+}
+
+header nav ul a {
+    text-decoration: none;
 }
 
 /* End of header */
@@ -246,7 +248,7 @@ div ul a {
 }
 
 
-.subtitle, .subtitle-2, .subtitle-3, .subtitle-4 {
+.subtitle, .subtitle-2, .subtitle-3, .subtitle-4, .subtitle-5 {
     font-size: 12px; 
 }
 
@@ -263,6 +265,14 @@ div ul a {
 .passwordgenie:hover {
     opacity: .4;
     background: red;
+}
+
+.navli:hover {
+    color: black;
+}
+
+.footer-li:hover {
+    color:lightblue;
 }
 
 /* End of Hovers */
