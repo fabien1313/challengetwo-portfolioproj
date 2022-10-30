@@ -29,6 +29,8 @@ Advanced CSS (Flexbox)
 
 ## Screenshots (Deployable Page Link)
 
+Deployed Page https://fabien1313.github.io/challengetwo-portfolioproj/
+
 ![](assets/images/port1.png)
 ![](assets/images/port2.png)
 ![](assets/images/port3.png)
