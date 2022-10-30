@@ -39,6 +39,10 @@ header nav ul a {
     text-decoration: none;
 }
 
+nav ul a:visited {
+    color: lightblue;
+}
+
 /* End of header */
 
 /* Hero */
@@ -256,14 +260,20 @@ div ul a {
 
 /* Hovers */
 
+.miniproj {
+    opacity: .8;
+}
+
 .miniproj:hover {
-    opacity: .4;
-    
-    
+    opacity: 1.0;
+}
+
+.passwordgenie {
+    opacity: .8;
 }
 
 .passwordgenie:hover {
-    opacity: .4;
+    opacity: 1.0;
     background: red;
 }
 
@@ -273,6 +283,10 @@ div ul a {
 
 .footer-li:hover {
     color:lightblue;
+}
+
+.footer-li:visited {
+    color:var(--primary);
 }
 
 /* End of Hovers */
